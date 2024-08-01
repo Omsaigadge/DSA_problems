@@ -7,6 +7,12 @@
 
 using namespace std;
 
+//problems covered
+//1.find one missing element from an array of first n natural numbers
+//2. find multiple missing elements from an array of first n natural numbers
+//3. find one missing element from an array of natural numbers starting at any number
+//4. find multiple missing elements from an array of natural numbers starting at any number
+
 int find_summation(int n)
 {
     return n*(n+1)/2;
