@@ -7,6 +7,15 @@
 #include<string>
 
 using namespace std;
+
+//problems covered
+//1.finding length of string using function and STL
+//2.change string to upper case, lower case, camel case and snake case
+//3.check if string is valid, here checking for special characters
+//4.reverse string using function and STL
+//5.finding frequency of string
+
+
 void length_of_string(string str)
 {
     int len=0;
@@ -87,6 +96,7 @@ int valid_string(const std::string& str)
     }
     return 1;
 }
+
 void string_reverse(string str)
 {
     int i=0,j=str.length()-1;
